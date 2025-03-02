@@ -103,9 +103,9 @@ def train_val_seg(epoch, dataloader, model, optimizer, criterion, run_id, device
 				pred_labels = pred_labels.float()
 				outputs_prob = torch.unsqueeze(pred_labels, dim=1)
 			else:
-				outputs_prob = (torch.sigmoid(outputs)>dice_threshold).float()
+				outputs_prob = (torch.sigmoid(outputs) > dice_threshold).float()
 				if partial_map:
-					pd_outputs = (torch.sigmoid(lateral_map_1)>dice_threshold).float()
+					pd_outputs = (torch.sigmoid(lateral_map_1) > dice_threshold).float()
 			#####
 			if idx%plot_img==0:
 				if partial_map:
