@@ -1,6 +1,6 @@
 ### [Automated Segmentation of Lymph Nodes on Neck CT Scans Using Deep Learning](https://link.springer.com/article/10.1007/s10278-024-01114-w)
 Official Pytorch implementation of S-Net, from the following paper:
-[Automated Segmentation of Lymph Nodes on Neck CT Scans Using Deep Learning](https://link.springer.com/article/10.1007/s10278-024-01114-w). Journal of Imaging Informatics in Medicine 2023 (Accepted) \
+[Automated Segmentation of Lymph Nodes on Neck CT Scans Using Deep Learning](https://link.springer.com/article/10.1007/s10278-024-01114-w). Journal of Imaging Informatics in Medicine 2023 (Accepted)
 
 ---
 
@@ -14,6 +14,7 @@ class="center">
 class="center">
 </p>
 
+We propose **Spatial Context Network (S-Net)**, a dilated convolution-based network to capture multi-scale context from head and neck CT for small lymph node (LN) segmentation. The network downsamples feature space only twice in encoding stage to preserve the spatial context from small LN. On the other hand, to address the limited receptive field, the network utilizes Atrous Spatial Pyramid Pooling (ASPP) to focus on multi-scale feature. As skip connection, the network utilizes reverse axial attention module to filter out unnecessary component detection outside of LN in order to reduce False Positive (FP). The network is supervised by binary tversky loss and weighted iou (termed as structure loss) [PraNet](https://arxiv.org/abs/2006.11392) to address the per-sample class-imbalance problem.
 <!-- 
 
     ```
