@@ -14,11 +14,6 @@ class="center">
 class="center">
 </p>
 
-<p align="center">
-<img src="figures/figure_3.png" width=100% height=40% 
-class="center">
-</p>
-
 <!-- 
 
     ```
