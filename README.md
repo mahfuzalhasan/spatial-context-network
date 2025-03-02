@@ -34,6 +34,13 @@ Run *train_segmentation.py*. On config file, set *val_fold* to select which fold
 ## Evaluation
 Run *test_segmentation.py*. Set best model path in *config.py*.
 
+## Results
+| Methods | resolution | Mean Dice | Jaccard Index 
+|:---:|:---:|:---:|:---:
+| Attention-UNet | 384x384 | 0.7513 | 0.7394
+| CaraNet | 384x384 | 0.7707 | 0.7602
+| Ours | 384x384 | 0.8014 | 0.78
+
 ## Citation
 If you find this repository helpful, please consider citing:
 ```
