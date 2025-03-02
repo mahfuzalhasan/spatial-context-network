@@ -29,7 +29,7 @@ Run *process_data/data_parser.py* to create five validation fold. For each fold 
 Please look into *config.py* carefully to set necessary parameters for the training and evaluation
 
 ## Training
-Run *train_segmentation.py*. On config file, set *val_fold* to select which fold to train on. Please look into other variables in *config.py*.
+Run *train_segmentation.py*. On config file, set *val_fold* to select which fold to train on. Please look into other variables in *config.py*. We used equal sampling of positive and negative slices during training of the network.
 
 ## Evaluation
 Run *test_segmentation.py*. Set best model path in *config.py*.
