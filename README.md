@@ -10,7 +10,7 @@ class="center">
 </p>
 
 <p align="center">
-<img src="figures/figure_2.png" width=100% height=40% 
+<img src="figures/figure_2.jpg" width=100% height=40% 
 class="center">
 </p>
 
@@ -18,7 +18,6 @@ class="center">
 <img src="figures/figure_3.png" width=100% height=40% 
 class="center">
 </p>
-
 
 <!-- 
 
