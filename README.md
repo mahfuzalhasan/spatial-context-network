@@ -41,6 +41,9 @@ Run *test_segmentation.py*. Set best model path in *config.py*.
 | CaraNet | 384x384 | 0.7707 | 0.7602
 | Ours | 384x384 | 0.8014 | 0.78
 
+## License
+This project is released under the MIT license. Please see the [LICENSE](LICENSE) file for more information.
+
 ## Citation
 If you find this repository helpful, please consider citing:
 ```
